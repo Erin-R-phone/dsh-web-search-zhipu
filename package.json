@@ -7,11 +7,20 @@
   "exports": {
     ".": "./lib/index.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@deepseek-ai/dsh-credentials": "0.1.2-rc.1",
     "@deepseek-ai/dsh-launch-environment": "0.1.2-rc.1",
     "@deepseek-ai/dsh-web": "0.1.2-rc.1",
     "@deepseek-ai/schemastery": "^3.18.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "web": {
+      "platform": "web",
+      "inject": ["web"]
+    }
   },
   "license": "MIT"
 }
