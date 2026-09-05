@@ -1,0 +1,6 @@
+# Cordis configuration layer for dsh-web-search-zhipu
+# This inserts the plugin into the DeepSeek Harness plugin tree so the
+# web seam (ctx.web) can register the Zhipu search provider.
+- insert:
+  - id: web-search-zhipu
+    name: web-search-zhipu
