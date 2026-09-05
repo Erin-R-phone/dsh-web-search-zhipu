@@ -1,0 +1,17 @@
+{
+  "name": "dsh-web-search-zhipu",
+  "version": "0.1.0",
+  "description": "Zhipu Web Search API search provider for the DeepSeek Harness web seam (ctx.web).",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-credentials": "0.1.2-rc.1",
+    "@deepseek-ai/dsh-launch-environment": "0.1.2-rc.1",
+    "@deepseek-ai/dsh-web": "0.1.2-rc.1",
+    "@deepseek-ai/schemastery": "^3.18.2"
+  },
+  "license": "MIT"
+}
